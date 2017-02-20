@@ -72,10 +72,10 @@ rando = random.random();
 print rando
 rando2 = int(rando * 10) + 1
 print rando2
-prompt = raw_input("Guess a number between 1 and 10 \n");
+prompt = raw_input("I've got a number between 1 and 10 - can you guess it? \n");
 if prompt == rando2:
 	print "You guessed right!"; 
-else: print "Wrong";
+else: print "Wrong. My number was actually " + str(rando2);
 
 
 
