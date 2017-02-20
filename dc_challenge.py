@@ -76,9 +76,19 @@ def sum_odd_numbers():
 		if i % 2 == 1:
 			count += i;  
 	print(count); 
-	
+
 sum_odd_numbers();
 
+
+# OR USE STEP PARAM
+def sum_odd_nums2():
+	sum = 0
+	# third param = STEP
+	for i in range(1, 5000, 2):
+		sum += i; 
+	print(sum); 
+
+sum_odd_nums2(); 
 
 
 

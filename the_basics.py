@@ -83,6 +83,7 @@ say_hello();
 def say_hello_with_name(name): 
 	print "hello, " + name; 
 
+# MUST pass at least correct num of args - ie. if you pass two, it'll only take the first
 say_hello_with_name("Anna"); 
 
 
