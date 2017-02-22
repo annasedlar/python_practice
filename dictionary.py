@@ -58,7 +58,7 @@ print tech
 # for loops through dictionaries start with key (placeholder), value
 # .items() because it's a dictionary, not a list
 for key,value in tech.items(): 
-	print key;
+	print value;
 if zombie.has_key('mother-name'):
 	print zombie['mother_name']; 
 

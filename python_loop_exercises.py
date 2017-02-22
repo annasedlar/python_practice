@@ -127,38 +127,23 @@
 #  *****
 # *******
 
+# &&
+
+# Print a Triangle II
+# Given a number as the height, print a triangle as in "Print a Triangle" but with the given height.
+
 height = int(raw_input("give me a height: "))
 i = 0
 level = 1
 base = ((2 * height )-1)
 stars = '*';
 space = ' ';
-
-
 while i < height:
 	num_of_init_spaces = ((base - level) /2)
 	# print num_of_init_spaces + "*"
 	print (space* num_of_init_spaces) + (stars*level)
 	level += 2 
 	i += 1
-
-
-
-
-
-
-# print (((space+" ")*((base - tri_level) / 2)) + ((stars + "*") *  tri_level) + ((space+" ")*((base - tri_level) / 2)));
-
-
-
-# Print a Triangle II
-# Given a number as the height, print a triangle as in "Print a Triangle" but with the given height.
-
-
-
-
-
-
 
 
 
